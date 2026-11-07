@@ -9,6 +9,8 @@ The site introduces the Grade 13 philosophy, six life-skill curriculum areas, le
 - `index.html` — the landing page and GitHub Pages entry point
 - `curriculum.html` — searchable curriculum explorer and subject browsing views
 - `article.html` — reusable long-form lesson template, addressed by `?slug=` URLs
+- `calculator.html` — interactive compound-interest projection tool
+- `calculator.js` — calculation and responsive chart behaviour for the calculator
 - `content.js` — structured subject and lesson data, separate from the UI
 - `app.js` — reusable library, filtering, article rendering, and navigation behaviour
 - `styles.css` — responsive design system, layout, visual styling, and interactions
