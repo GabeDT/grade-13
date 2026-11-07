@@ -6,9 +6,12 @@ The site introduces the Grade 13 philosophy, six life-skill curriculum areas, le
 
 ## Project files
 
-- `index.html` — the complete landing page and GitHub Pages entry point
+- `index.html` — the landing page and GitHub Pages entry point
+- `curriculum.html` — searchable curriculum explorer and subject browsing views
+- `article.html` — reusable long-form lesson template, addressed by `?slug=` URLs
+- `content.js` — structured subject and lesson data, separate from the UI
+- `app.js` — reusable library, filtering, article rendering, and navigation behaviour
 - `styles.css` — responsive design system, layout, visual styling, and interactions
-- `script.js` — accessible mobile-navigation behaviour
 
 ## Run locally
 
@@ -36,3 +39,4 @@ All local site assets are linked with relative paths, so the site works when pub
 
 - Typography is loaded from Google Fonts over HTTPS; no local font files are required.
 - The navigation and buttons use in-page links in this prototype. Future lesson pages can be added with relative URLs (for example, `lessons/finance.html`).
+
